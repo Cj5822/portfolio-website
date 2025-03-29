@@ -55,7 +55,7 @@ const NavBar = () => {
           href="#contacts"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
-          <li>Contacts</li>
+          <li>Contact</li>
         </a>
       </ul>
 
