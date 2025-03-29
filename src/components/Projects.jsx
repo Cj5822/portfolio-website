@@ -9,6 +9,7 @@ const projectsData = [
     description:
       "Guess Who is crime investigation game where players take on the role of detectives and work to solve a mystery. Players must gather clues, interrogate suspects, and piece together the evidence to uncover the truth behind the crime.",
     technologies: ["Java", "CSS", "JavaFX"],
+    github: "https://github.com/Cj5822/guess-who",
   },
   {
     image: web3,
@@ -23,6 +24,7 @@ const projectsData = [
       "HTML",
       "CSS",
     ],
+    github: "https://github.com/Cj5822/web3-p2p-website",
   },
 ];
 
@@ -43,11 +45,13 @@ const ProjectCard = ({ project }) => {
   return (
     <ScrollReveal>
       <div className="flex flex-col items-center gap-8 md:flex-row md:gap-20">
-        <img
-          src={project.image}
-          alt=""
-          className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
-        />
+        <a href={project.github} target="_blank" rel="noopener noreferrer">
+          <img
+            src={project.image}
+            alt=""
+            className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[900px]"
+          />
+        </a>
 
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">

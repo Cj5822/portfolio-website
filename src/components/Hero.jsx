@@ -32,7 +32,13 @@ const Hero = () => {
             Software Developer
           </h3>
           <p className="md:text-base text-pretty text-sm text-gray-400">
-            I am a software engineering student attending the University of Auckland. I love to learn new things and work together as a team. I am determined to become a full-time software engineer and so I am constantly learning new technologies and improving my skills. I am currently looking for internships to gain experience in the industry.
+            I am a passionate Software Engineering student at the University of
+            Auckland, eager to expand my knowledge and apply my skills in
+            real-world settings. I thrive in collaborative environments and am
+            driven by a strong determination to become a full-time software
+            engineer. Continuously learning and staying up-to-date with the
+            latest technologies, I am actively seeking internship opportunities
+            to gain hands-on experience and contribute to meaningful projects.
           </p>
         </motion.div>
       </div>
