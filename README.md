@@ -20,12 +20,20 @@ A modern, responsive portfolio website built to showcase projects, skills, and p
 - Social media links (LinkedIn, GitHub)
 - Contact section
 
-## Installation
+## 🛠️ Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Cj5822/portfolio-website.git
+cd portfolio-website
+
 # Install dependencies
 npm install
+```
 
+## ▶️ Run the App
+
+```bash
 # Run development server
 npm run dev
 
