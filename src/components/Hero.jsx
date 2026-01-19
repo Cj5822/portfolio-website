@@ -40,7 +40,7 @@ const Hero = () => {
             solve real world problems. I'm currently looking for internships to
             gain more skills and experience so I can fulfill my dream of
             becoming a full time software developer. In my free time I like to
-            play games, watch shows/animes, and going to the gym. Feel free to reach out if you want to connect!
+            play games, watch shows and animes, and go to the gym. Feel free to reach out if you want to connect!
           </p>
 
           <div className="flex items-center justify-center gap-4 mt-4">
