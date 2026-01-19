@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { BiX, BiMenu } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,6 +79,15 @@ const NavBar = () => {
             <BsGithub />
           </a>
         </li>
+        <li className="cursor-pointer opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+          <a
+            href="/Caleb_Jung_Resume_2026.pdf"
+            download
+            className="text-sm font-medium"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
 
       {isOpen ? (
@@ -131,6 +141,15 @@ const NavBar = () => {
                 rel="noopener noreferrer"
               >
                 <BsGithub />
+              </a>
+            </li>
+            <li className="cursor-pointer opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+              <a
+                href="/Caleb_Jung_Resume_2026.pdf"
+                download
+                className="text-sm font-medium"
+              >
+                Resume
               </a>
             </li>
           </ul>

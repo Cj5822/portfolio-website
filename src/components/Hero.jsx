@@ -1,5 +1,6 @@
 import image from "/public/image.jpg";
 import { motion } from "framer-motion";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Hero = () => {
   return (
     <div
@@ -41,6 +42,32 @@ const Hero = () => {
             becoming a full time software developer. In my free time I like to
             play games, watch shows/animes, and go gym. Feel free to reach out if you want to connect!
           </p>
+
+          <div className="flex items-center justify-center gap-4 mt-4">
+            <a
+              href="https://www.linkedin.com/in/caleb-jung-32b64b2b6/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white/20 px-4 py-2 text-xl transition-all duration-200 opacity-70 hover:opacity-100 hover:text-blue-500 hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10"
+            >
+              <BsLinkedin />
+            </a>
+            <a
+              href="https://github.com/Cj5822"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white/20 px-4 py-2 text-xl transition-all duration-200 opacity-70 hover:opacity-100 hover:text-blue-500 hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10"
+            >
+              <BsGithub />
+            </a>
+            <a
+              href="/Caleb_Jung_Resume_2026.pdf"
+              className="rounded-full border border-white/20 px-4 py-2 text-sm font-medium text-white transition-all duration-200 opacity-70 hover:opacity-100 hover:text-blue-500 hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10"
+              download
+            >
+              Resume
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>
