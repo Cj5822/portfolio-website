@@ -9,7 +9,8 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center gap-10 text-white">
         <motion.div
           initial={{ y: -50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
@@ -21,7 +22,8 @@ const Hero = () => {
 
         <motion.div
           initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center"
         >
