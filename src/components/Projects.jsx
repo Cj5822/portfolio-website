@@ -16,7 +16,7 @@ const projectsData = [
       "Tailwind CSS",
       "MongoDB"
     ],
-    github: "https://github.com/Cj5822/uniq",
+    github: "https://github.com/Softeng310-project/UniQ",
   },
   {
     image: swiftnzdd,
