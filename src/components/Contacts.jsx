@@ -16,7 +16,9 @@ const Contact = () => {
         </p>
 
         <a
-          href="mailto:calebjung04@gmail.com"
+          href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=calebjung04@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="tex-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg font-bold text-white shadow-lg shadow-indigo-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-600"
         >
           Contact Me
