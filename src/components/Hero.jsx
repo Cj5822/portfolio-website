@@ -1,4 +1,4 @@
-import image from "/public/image.jpg";
+import profile from "/public/profile.png";
 import { motion } from "framer-motion";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Hero = () => {
@@ -15,9 +15,9 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={image}
+            src={profile}
             alt=""
-            className="w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-s-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]"
+            className="w-[300px] h-[300px] md:w-[350px] md:h-[350px] cursor-pointer rounded-full object-cover object-top shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-s-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600"
           />
         </motion.div>
 
