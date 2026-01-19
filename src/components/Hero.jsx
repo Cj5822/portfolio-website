@@ -31,14 +31,13 @@ const Hero = () => {
           <h3 className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent opacity-80 text-4xl font-light md:text-3xl">
             Software Developer
           </h3>
-          <p className="md:text-base text-pretty text-sm text-gray-400">
-            I am a passionate Software Engineering student at the University of
-            Auckland, eager to expand my knowledge and apply my skills in
-            real-world settings. I thrive in collaborative environments and am
-            driven by a strong determination to become a full-time software
-            engineer. Continuously learning and staying up-to-date with the
-            latest technologies, I am actively seeking internship opportunities
-            to gain hands-on experience and contribute to meaningful projects.
+          <p className="md:text-base text-sm text-gray-400 text-center mt-5">
+            Hey, I'm Caleb, a passionate software egineering student at the
+            University of Auckland. I like to build full stack applications and
+            solve real world problems. I'm currently looking for internships to
+            gain more skills and experience so I can fulfill my dream of
+            becoming a full time software developer. In my free time I like to
+            play games, watch shows/animes, and go gym. Feel free to reach out if you want to connect!
           </p>
         </motion.div>
       </div>
