@@ -35,12 +35,12 @@ const Hero = () => {
             Software Developer
           </h3>
           <p className="md:text-base text-sm text-gray-400 text-center mt-5">
-            Hey, I'm Caleb, a passionate software egineering student at the
+            Hey, I'm Caleb, a passionate software engineering student at the
             University of Auckland. I like to build full stack applications and
             solve real world problems. I'm currently looking for internships to
             gain more skills and experience so I can fulfill my dream of
             becoming a full time software developer. In my free time I like to
-            play games, watch shows/animes, and go gym. Feel free to reach out if you want to connect!
+            play games, watch shows/animes, and going to the gym. Feel free to reach out if you want to connect!
           </p>
 
           <div className="flex items-center justify-center gap-4 mt-4">
